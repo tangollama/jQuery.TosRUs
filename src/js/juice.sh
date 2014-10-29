@@ -1,0 +1,2 @@
+rm jquery.tosrus.min.all.js
+juicer merge jquery.tosrus.js addons/jquery.tosrus.buttons.js addons/jquery.tosrus.caption.js addons/jquery.tosrus.drag.js addons/jquery.tosrus.keys.js addons/jquery.tosrus.pagination.js media/jquery.tosrus.html.js media/jquery.tosrus.image.js media/jquery.tosrus.vimeo.js media/jquery.tosrus.youtube.js   -s -m closure_compiler -o jquery.tosrus.min.all.js
