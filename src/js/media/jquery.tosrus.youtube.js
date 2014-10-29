@@ -30,7 +30,7 @@
 
 			if ( this.opts[ _MEDIA_ ].imageLink )
 			{
-				href = 'http://img.youtube.com/vi/' + href + '/0.jpg';
+				href = '//img.youtube.com/vi/' + href + '/0.jpg';
 				$('<a href="' + url + '" class="' + $[ _PLUGIN_ ]._c( 'play' ) + '" target="_blank" />')
 					.appendTo( $s );
 
@@ -48,7 +48,7 @@
 			}
 			else
 			{
-				$('<iframe src="http://www.youtube.com/embed/' + href + '?enablejsapi=1" frameborder="0" allowfullscreen />')
+				$('<iframe src="//www.youtube.com/embed/' + href + '?enablejsapi=1" frameborder="0" allowfullscreen />')
 					.appendTo( $s );
 
 				initVideo.call( this, $s );
